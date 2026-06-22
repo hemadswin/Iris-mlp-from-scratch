@@ -50,3 +50,6 @@ IRIS_MLP_APP/
   - Versicolor
   - Virginica
 - Interactive Streamlit deployment completed
+
+Author
+N Hema Sathya Kumari, Aspiring Data Scientist
