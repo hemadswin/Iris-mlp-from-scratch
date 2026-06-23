@@ -4,35 +4,29 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Neural%20Network-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 
-## Project Overview
+## Live Demo
 
-This project implements a **Multi-Layer Perceptron (MLP) Neural Network from Scratch using NumPy** without using deep learning frameworks such as TensorFlow or PyTorch.
-
-The model is trained on the famous **Iris Dataset** and deployed using **Streamlit** to provide an interactive web application for flower species prediction.
-
-The goal of this project was to understand the complete working of neural networks by manually implementing:
-
-* Forward Propagation
-* Backpropagation
-* Gradient Descent
-* ReLU Activation
-* Softmax Activation
-* Cross Entropy Loss
+**Streamlit Application:**
+https://iris-mlp-from-scratch-svssxtzvu88thyrxjxcwsm.streamlit.app/
 
 ---
 
-## Features
+## Project Overview
 
-* Built MLP Neural Network completely from scratch using NumPy
-* Manual implementation of Forward Propagation
-* Manual implementation of Backpropagation
-* ReLU Activation Function
-* Softmax Output Layer
-* Cross Entropy Loss Function
-* Gradient Descent Optimization
-* Training and Accuracy Visualization
-* Model Serialization using Pickle
-* Interactive Streamlit Web Application
+This project implements a **Multi-Layer Perceptron (MLP) Neural Network from Scratch using NumPy** without relying on deep learning frameworks such as TensorFlow or PyTorch.
+
+The model is trained on the famous **Iris Dataset** and deployed using **Streamlit** to provide an interactive web application for flower species prediction.
+
+### Key Highlights
+
+* Built an MLP Neural Network completely from scratch using NumPy
+* Implemented Forward Propagation manually
+* Implemented Backpropagation manually
+* Applied Gradient Descent optimization
+* Used ReLU and Softmax activation functions
+* Achieved **98.3% Training Accuracy**
+* Achieved **96.7% Test Accuracy**
+* Deployed as a Streamlit web application
 
 ---
 
@@ -42,10 +36,10 @@ The project uses the Iris Dataset available in Scikit-Learn.
 
 ### Input Features
 
-1. Sepal Length
-2. Sepal Width
-3. Petal Length
-4. Petal Width
+* Sepal Length
+* Sepal Width
+* Petal Length
+* Petal Width
 
 ### Target Classes
 
@@ -91,63 +85,15 @@ The project uses the Iris Dataset available in Scikit-Learn.
 
 ---
 
-## Project Structure
-
-```text
-IRIS_MLP_APP/
-
-├── Data/
-│
-├── Images/
-│   ├── training_metrics.png
-│   └── app_screenshot.png
-│
-├── Model/
-│   └── iris_mlp.pkl
-│
-├── Notebooks/
-│   └── MLP_Neural_Network.ipynb
-│
-├── SRC/
-│   └── app.py
-│
-├── requirements.txt
-│
-├── README.md
-│
-└── .gitignore
-```
-
----
-
-## Training Process
-
-The neural network follows the standard deep learning workflow:
-
-1. Initialize Weights and Biases
-2. Forward Propagation
-3. Compute Loss
-4. Backpropagation
-5. Calculate Gradients
-6. Update Parameters
-7. Repeat for Multiple Epochs
-8. Save Trained Model using Pickle
-
----
-
-
 ## Results
 
-## Results
-
-- Training Accuracy: 98.3%
-- Test Accuracy: 96.7%
-- Successfully implemented a Multi-Layer Perceptron (MLP) from scratch using NumPy
-- Performed multi-class classification on the Iris Dataset
-- Built an interactive prediction application using Streamlit
+* Training Accuracy: 98.3%
+* Test Accuracy: 96.7%
+* Successfully implemented a Multi-Layer Perceptron (MLP) from scratch
+* Performed multi-class classification on the Iris Dataset
+* Built and deployed an interactive Streamlit application
 
 ---
-
 
 ## Training Metrics
 
@@ -155,11 +101,9 @@ The neural network follows the standard deep learning workflow:
 
 ---
 
-
 ## Application Preview
 
 ![Application Screenshot](Images/Iris_App.png)
-
 
 ---
 
@@ -183,16 +127,35 @@ cd iris-mlp-from-scratch
 pip install -r requirements.txt
 ```
 
-### Navigate to Source Folder
-
-```bash
-cd SRC
-```
-
 ### Run Streamlit Application
 
 ```bash
-streamlit run app.py
+streamlit run SRC/app.py
+```
+
+---
+
+## Project Structure
+
+```text
+IRIS_MLP_APP/
+
+├── Images/
+│   ├── training_metrics.png
+│   └── Iris_App.png
+│
+├── Model/
+│   └── iris_mlp.pkl
+│
+├── Notebooks/
+│   └── MLP_Neural_Network.ipynb
+│
+├── SRC/
+│   └── app.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -202,13 +165,13 @@ streamlit run app.py
 Through this project, I gained hands-on experience with:
 
 * Neural Network Fundamentals
-* Matrix Operations using NumPy
 * Forward Propagation
 * Backpropagation
 * Gradient Descent Optimization
-* Model Serialization
+* Matrix Operations using NumPy
+* Model Serialization using Pickle
 * Streamlit Deployment
-* Git & GitHub Project Management
+* Git & GitHub Workflow
 
 ---
 
@@ -216,29 +179,24 @@ Through this project, I gained hands-on experience with:
 
 * Add Multiple Hidden Layers
 * Implement Dropout Regularization
-* Add Model Evaluation Metrics
-* Deploy Application on Streamlit Cloud
+* Add Advanced Evaluation Metrics
 * Improve UI/UX Design
-* Compare Performance with TensorFlow and PyTorch Models
+* Compare Performance with TensorFlow and PyTorch Implementations
 
 ---
 
 ## Author
 
-N Hema Sathya Kumari
+**N Hema Sathya Kumari**
 
 Aspiring Data Scientist | Machine Learning Enthusiast
 
-GitHub: [hemadswin](https://github.com/hemadswin)
+GitHub: https://github.com/hemadswin
 
-LinkedIn: [N Hema Sathya Kumari](https://www.linkedin.com/in/n-hema/)
-
+LinkedIn: https://www.linkedin.com/in/n-hema/
 
 ---
 
-
 ## License
 
-This project is open for educational and learning purposes.
-
-
+This project is open for educational and portfolio purposes.
