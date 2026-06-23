@@ -103,7 +103,7 @@ The project uses the Iris Dataset available in Scikit-Learn.
 
 ## Application Preview
 
-![Application Screenshot](Images/Iris_App.png)
+![Application Screenshot](Images/Iris_App.PNG)
 
 ---
 
