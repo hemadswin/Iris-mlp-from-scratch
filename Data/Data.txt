@@ -1,0 +1,12 @@
+This project uses the Iris Dataset available in Scikit-Learn.
+
+Dataset Source:
+from sklearn.datasets import load_iris
+
+The dataset contains:
+- 150 samples
+- 4 input features
+- 3 target classes:
+  • Setosa
+  • Versicolor
+  • Virginica
