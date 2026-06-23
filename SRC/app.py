@@ -66,7 +66,7 @@ class NeuralNetwork:
             self.backward(X,y)
             if epoch%10==0:
               print(f"Training metrics : Epoch: {epoch},loss: {loss:.4f},accuracy: {accuracy:.4f}")
-model_path=os.path.join('..','Model','iris_mlp.pkl')
+model_path='Model/iris_mlp.pkl'
 with open (model_path,'rb') as file:
     model=pickle.load(file)
 
