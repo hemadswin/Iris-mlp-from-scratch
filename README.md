@@ -97,7 +97,7 @@ The project uses the Iris Dataset available in Scikit-Learn.
 
 ## Training Metrics
 
-![Training Metrics](Images/training_metrics.png)
+![Training Metrics](Images/Training_metrics.png)
 
 ---
 
